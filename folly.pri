@@ -9,6 +9,7 @@ QMAKE_CXXFLAGS += -std=c++11
 INCLUDEPATH += $${PWD}
 LIBS += -L$${PWD}/folly/.libs
 LIBS += -lfolly
+LIBS += -lfollybenchmark
 
 #
 # glog
