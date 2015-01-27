@@ -21,4 +21,3 @@ LIBS += -lglog
 #
 # unused-variable
 QMAKE_CXXFLAGS += -Wno-unused-parameter
-
